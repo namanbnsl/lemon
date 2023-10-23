@@ -1,0 +1,13 @@
+TOKEN "untitled_pipe_2492_endpoint_read_1471" READ
+
+NODE untitled_pipe_2492_0
+DESCRIPTION >
+    undefined
+
+SQL >
+
+    %
+    SELECT * FROM lemon
+    WHERE lemon.projectName={{String(project_name, 'lemon')}}
+
+

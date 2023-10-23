@@ -1,0 +1,9 @@
+
+SCHEMA >
+    `action` String `json:$.action`,
+    `date` String `json:$.date`,
+    `name` String `json:$.name`,
+    `projectName` String `json:$.projectName`
+
+ENGINE "MergeTree"
+ENGINE_SORTING_KEY "action, date, name, projectName"
